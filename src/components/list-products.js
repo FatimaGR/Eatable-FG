@@ -14,6 +14,15 @@ const Title = styled.a`
   text-decoration: none;
   text-align:center;
   margin: auto;
+  `;
+  
+const ContainerTitle = styled.div`
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  text-align:center;
+  width: 130px;
+  height: 46px;
+  display: flex;
 `;
 
 const Icon = styled.a`
@@ -23,7 +32,7 @@ const Icon = styled.a`
 const Price = styled.p`
   ${typography.semibold.lg}
   color: ${colors.orange};
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 `;
 
 const ProductPicture = styled.img`
@@ -33,6 +42,7 @@ const ProductPicture = styled.img`
   border-radius: 100%;
   display: flex;
   position: absolute;
+  z-index: 1;
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
 `
 const ProductData = styled.div`
@@ -77,6 +87,13 @@ const Other = styled.div`
   align-items: flex-end;
 `;
 
+const Background = styled.div`
+  width: 100%;
+  height: 100%;
+  background: black;
+  position: absolute;
+  z-index: 2;
+`;
 
 const ListProducts = ({product}) => {
   const [open, setOpen] = useState(false)
@@ -89,7 +106,9 @@ const ListProducts = ({product}) => {
         <ProductCard>
         <div>
           <ProductData>
-            <Title href={`/${product.id}`}>{product.name}</Title>
+            <ContainerTitle>
+              <Title href={`/${product.id}`}>{product.name}</Title>
+            </ContainerTitle>
             <Price>${product.price}</Price>
           </ProductData>
           <ProductOptions>

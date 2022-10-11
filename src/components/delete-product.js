@@ -1,6 +1,5 @@
-import { useNavigate, useParams } from "react-router-dom"
 import { deleteProduct } from "../services/products-services"
-import { CancelBtn, ConfirmBtn } from "../styles/buttons"
+import { ConfirmBtn } from "../styles/buttons"
 import styled from "@emotion/styled";
 import { typography } from "../styles/typography";
 import { colors } from "../styles/colors";
@@ -29,12 +28,10 @@ const DeleteProduct = ({id}) => {
   };
 
   return(
-    // <ConfirmBackground>
     <ConfirmCard>
       <Title>Are you sure?</Title>
       <ConfirmBtn onClick={handleDelete}>Yes, delete it!</ConfirmBtn>
     </ConfirmCard>
-    // </ConfirmBackground>
   )
 }
 

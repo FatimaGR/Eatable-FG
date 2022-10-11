@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import { colors } from "../styles/colors";
 
-const btn = styled.button`
+export const btn = styled.button`
   width: 310px;
   height: 70px;
   display: flex;
@@ -10,7 +10,7 @@ const btn = styled.button`
   border-radius: 30px;
 `;
 
-const confirmBtn = styled.button`
+export const confirmBtn = styled.button`
   width: 262px;
   height: 47px;
   display: flex;
@@ -18,7 +18,7 @@ const confirmBtn = styled.button`
   border-radius: 30px;
 `;
 
-const cancelBtn = styled.button`
+export const cancelBtn = styled.button`
   width: 262px;
   height: 47px;
   display: flex;

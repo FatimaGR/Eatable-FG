@@ -3,6 +3,11 @@ import styled from "@emotion/styled";
 import { CancelBtn } from '../styles/buttons';
 import { colors } from '../styles/colors';
 
+const ReferenceBackground = styled.div`
+  position: absolute;
+  z-index: 2;
+`;
+
 const ConfirmBackground = styled.div`
   background-color: rgb(51, 51, 51, 0.8);
   position: fixed;
@@ -33,12 +38,14 @@ export default function Modal({children, open, close}) {
 
   return (
     <div>
+      <ReferenceBackground>
       <ConfirmBackground>
         <ConfirmCard>
           {children}  
           <CancelBtn onClick={close}>No, cancel!</CancelBtn>
         </ConfirmCard>
       </ConfirmBackground>
+      </ReferenceBackground>
     </div>
   )
 }
