@@ -31,7 +31,7 @@ const FormLabel = styled.label`
   margin-bottom: 5px;
 `;
 
-function Input({ id, name, type="text", value, onChange, label}) {
+export function Input({ id, name, type="text", value, onChange, label}) {
   return (
     <div>
       <FormLabel htmlFor={id || name}>{label}</FormLabel>

@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import React from "react"
 import styled from "@emotion/styled";
 import { colors } from "../styles/colors";
-import { Link, useNavigate } from "react-router-dom";
 import DeleteProduct from "./delete-product";
 import { typography } from "../styles/typography";
 import { RiDeleteBinFill, RiEditBoxFill } from "react-icons/ri";
@@ -85,14 +84,6 @@ const ProductOptions = styled.div`
 const Other = styled.div`
   display: flex;
   align-items: flex-end;
-`;
-
-const Background = styled.div`
-  width: 100%;
-  height: 100%;
-  background: black;
-  position: absolute;
-  z-index: 2;
 `;
 
 const ListProducts = ({product}) => {

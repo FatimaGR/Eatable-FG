@@ -12,7 +12,7 @@ const Title = styled.p`
 `;
 
 const ListContainer = styled.div`
-  height: 694px;
+  height: 100%;
   width: 352px;
   overflow: scroll;
 `;
@@ -21,7 +21,9 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  position:
+  height: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
 `;
 
 const Home = () => {
@@ -45,9 +47,7 @@ const Home = () => {
       <ListContainer>
       {products.map((product) => {
         return(
-          <div>
-            {<ListProducts product={product}/>}
-          </div>
+          <ListProducts product={product}/>
         )
       })}
       </ListContainer>

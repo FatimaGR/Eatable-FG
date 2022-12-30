@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { getProduct } from "../services/products-services";
 import styled from "@emotion/styled";
+import { getProduct } from "../services/products-services";
 import { typography } from "../styles/typography";
 import { colors } from "../styles/colors";
 import { Button } from "../styles/buttons";

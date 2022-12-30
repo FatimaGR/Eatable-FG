@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
+import styled from "@emotion/styled";
 import { updateProduct } from '../services/products-services';
-import Input, { TextArea } from '../components/input';
+import { Input, TextArea } from '../components/input';
 import { typography } from '../styles/typography';
 import { colors } from '../styles/colors';
-import styled from "@emotion/styled";
 import { Button } from '../styles/buttons';
 
 const Title = styled.p`

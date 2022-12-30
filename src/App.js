@@ -27,8 +27,8 @@ function App () {
         <Routes>
           <Route path="/" element={<Home products={products}/>}></Route>
           <Route path="/create" element={<CreateForm products={products}/>}></Route>
-          <Route path="/:id" element={<DetailProduct></DetailProduct>}></Route>
-          <Route path="/edit/:id" element={<EditForm></EditForm>}></Route>
+          <Route path="/:id" element={<DetailProduct/>}></Route>
+          <Route path="/edit/:id" element={<EditForm/>}></Route>
         </Routes>
       </BrowserRouter>
     </Container>

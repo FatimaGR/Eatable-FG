@@ -5,12 +5,12 @@ import styled from "@emotion/styled";
 import { Global } from '@emotion/react';
 import { global, reset } from './styles/global';
 import { colors } from './styles/colors';
-import { WhiteBackground, OrangeBackground } from './styles/utils';
+import { OrangeBackground } from './styles/utils';
 
 const Background = styled.div`
   margin: auto;
   width: 414px;
-  height: 896px;
+  height: 100vh;
   padding: 48px 21px 12px 21px;
   background: ${colors.lightgray};
   border-radius: 20px;

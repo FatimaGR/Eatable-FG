@@ -12,7 +12,8 @@ export const Button = styled.button`
   border-radius: 30px;
   border: none;
   color: ${colors.white};
-  ${typography.semibold.md}
+  ${typography.semibold.md};
+  cursor: pointer;
 `;
 
 export const ConfirmBtn = styled.button`
@@ -25,7 +26,8 @@ export const ConfirmBtn = styled.button`
   background: ${colors.orange};
   border-radius: 30px;
   color: ${colors.white};
-  ${typography.semibold.md}
+  ${typography.semibold.md};
+  cursor: pointer;
 `;
 
 export const CancelBtn = styled.button`
@@ -38,5 +40,6 @@ export const CancelBtn = styled.button`
   background: ${colors.yellow};
   border-radius: 30px;
   color: ${colors.white};
-  ${typography.semibold.md}
+  ${typography.semibold.md};
+  cursor: pointer;
 `;
