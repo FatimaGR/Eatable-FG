@@ -1,6 +1,6 @@
 # Eatable
 
-An aplication...
+ProductS Dashboard of Eatable, an application where you can buy food.
 ## Table of contents
 
 - [Getting Started](#getting-started)
@@ -40,7 +40,7 @@ To view it open http://localhost:3000
 ![](./readme-images/eatable.png)
 
 ### Links
-- Live Site URL: [Eatable]()
+- Live Site URL: [Eatable](https://eatable-fg.vercel.app)
 
 ## How to use
 ### Home
