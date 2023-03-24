@@ -26,6 +26,7 @@ const ContainerTitle = styled.div`
 
 const Icon = styled.a`
   color: ${colors.orange};
+  cursor: pointer;
 `;
 
 const Price = styled.p`

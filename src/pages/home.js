@@ -14,7 +14,7 @@ const Title = styled.p`
 const ListContainer = styled.div`
   height: 100%;
   width: 352px;
-  overflow: scroll;
+  overflow: overlay;
 `;
 
 export const Container = styled.div`

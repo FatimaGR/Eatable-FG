@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Eatable
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An aplication...
+## Table of contents
 
-## Available Scripts
+- [Getting Started](#getting-started)
+  - [Built with](#built-with)
+  - [Installation](#installation)
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [How to use](#how-to-use)
+  - [Home](#home)
+  - [Create product](#create-product)
+  - [View product](#view-product)
+  - [Edit product](#edit-product)
+  - [Delete product](#delete-product)
 
-In the project directory, you can run:
+## Getting Started
+### Built with
+![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
+![React](https://img.shields.io/badge/-React-%23282C34?style=flat-square&logo=react)
+- JavaScript
+- React
+- Emotion
 
-### `npm start`
+### Installation
+Run the following commands:
+```
+npm install
+```
+Running the app
+```
+npm start
+```
+To view it open http://localhost:3000
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
+### Screenshot
+![](./readme-images/eatable.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Links
+- Live Site URL: [Eatable]()
 
-### `npm test`
+## How to use
+### Home
+You will see Eatable's home page, here you can found a button to create products and the diferents products, with their prices and options.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](./readme-images/home.png)
+### Create product
+To create a product click the button "Create product".
 
-### `npm run build`
+Now you are in "Create" page, fill product details and save it clicking the "Create" button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Remember, you must use the link of an image for your product.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![](./readme-images/create.png)
+### View product
+To view the details of a product, click on its name.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Now you are in "Product details" page, here you will see product's name, image, price and description.
 
-### `npm run eject`
+Click on the "Go back" button to return to the home page.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![](./readme-images/view.png)
+### Edit product
+To edit a product, click on its pencil button.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Now you are in "Edit product" page, update the product details and click on "Save" button.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![](./readme-images/edit.png)
+### Delete product
+Finally to delete a product, click on its trash button. You will see a modal to confirm the deletion.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![](./readme-images/delete.png)
