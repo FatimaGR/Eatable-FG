@@ -13,7 +13,7 @@ const Title = styled.p`
 
 const ListContainer = styled.div`
   height: 100%;
-  width: 352px;
+  min-width: 370px;
   overflow: overlay;
 `;
 
